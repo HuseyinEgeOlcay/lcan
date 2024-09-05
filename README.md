@@ -2,6 +2,12 @@
 lcan (Lichess Tournament Animation), python visualization tool for lichess tournaments.  
 Supported by [Berserk](https://github.com/lichess-org/berserk) (Python client for the lichess API)  
 It is named as the reverse of "Naci" and is intended to honor M. Naci Dokumacı for his dedicated contributions to the chess community.  
+## Features
+* Fetch tournament results and player data from Lichess using the API
+* Player points over time is stored
+* Time period can be adjust 
+* Works for also teams
+* Export data to CSV 
 ## Usage
 ### Berserk
 Requires Python 3.8+   
