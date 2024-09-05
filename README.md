@@ -4,8 +4,8 @@ Supported by [Berserk](https://github.com/lichess-org/berserk) (Python client fo
 It is named as the reverse of "Naci" and is intended to honor M. Naci Dokumacı for his dedicated contributions to the chess community.  
 ## Features
 * Fetch tournament results and player data from Lichess using the API
-* Player points over time is stored
-* Time period can be adjust 
+* Player points are stored over time table
+* Time period can be adjusted 
 * Works for also teams
 * Export data to CSV 
 ## Usage
