@@ -12,8 +12,10 @@ If you have berserk-downstream installed, make sure to uninstall it first!
 ```__init__.py - berserk``` >``` __init__.py - client``` > ```tournaments.py```   
 Paste ```tournaments.py``` in this repository 
 ### API (Optional)
+API token can be used for faster data stream
 Get a Personal API access token. **Edit profile** > **API access tokens**  
-Copy the token. Paste into ```token="Paste the Token"```
+Copy the token. Paste into ```token="Paste the Token"```   
+If you do not have a token just leave as ```token=""``` 
 ### Tournament
 Copy the link of the tournament. Paste into ```client.tournaments.stream_results("Paste the Link",sheet=True)```
 ### CSV File
