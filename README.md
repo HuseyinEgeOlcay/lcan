@@ -7,7 +7,7 @@ It is named as the reverse of "Naci" and is intended to honor M. Naci Dokumacı 
 * Player points are stored over time table
 * Time period can be adjusted 
 * Works for also teams
-* Export data to CSV 
+* Export data to CSV for visualization tools like Flourish
 ## Usage
 ### Berserk
 Requires Python 3.8+   
