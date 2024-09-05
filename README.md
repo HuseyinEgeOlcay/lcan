@@ -8,7 +8,7 @@ Requires Python 3.8+
 Download and install the latest release:
 ```pip3 install berserk"```
 If you have berserk-downstream installed, make sure to uninstall it first!   
-**Change the stream_result() fuction!**   
+**Change the stream_result() fuction!** (It will be changed in the next berserk version)    
 ```__init__.py - berserk``` >``` __init__.py - client``` > ```tournaments.py```   
 Paste ```tournaments.py``` in this repository 
 ### API (Optional)
