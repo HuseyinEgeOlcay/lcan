@@ -49,9 +49,11 @@ session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
 # Get tournament info, games and player's score sheet
-tournamnet_results = client.tournaments.stream_results("88D8Ewzn", sheet=True)
-tournament_games = client.tournaments.export_arena_games("88D8Ewzn")
-tournament=client.tournaments.get_tournament("88D8Ewzn")
+# Last part of the URL is the tournament ID. Example: https://lichess.org/tournament/88D8Ewzn
+tournament_ID = "88D8Ewzn" 
+tournamnet_results = client.tournaments.stream_results(tournament_ID, sheet=True)
+tournament_games = client.tournaments.export_arena_games(tournament_ID)
+tournament=client.tournaments.get_tournament(tournament_ID)
 
 # Check if it's a team tournament
 if "teamBattle" in tournament:
@@ -140,7 +142,7 @@ if "teamBattle" in tournament:
         team_players = [player_obj for player_obj in players if player_obj.team == team]
         
         # Sort players by their total points (sum of all points)
-        sorted_players = sorted(team_players, key=lambda x: sum(x.point_list.keys()), reverse=True)
+        sorted_players = sorted(team_players, key=lambda x: x.point, reverse=True)
         
         # Select top 10 players (Lichess only sum up top 10 players in the team)
         top_10_players = sorted_players[:10]
@@ -171,4 +173,3 @@ if "teamBattle" in tournament:
     # Optionally, you can specify the path where you want to save the file
     # df_points.to_csv('path/to/your/directory/team_points.csv', index=True)
     print("Team DataFrame saved as 'team_points.csv'.")
-
