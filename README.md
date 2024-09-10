@@ -29,6 +29,7 @@ Players' points over time is saved as "player_points.csv". If the tournament is 
 [Flourish](https://app.flourish.studio) can be used. Choose bar chart race and upload the csv file
 ## Example
 ![image](https://github.com/user-attachments/assets/c3eac2a6-5b49-4c32-9ff8-6ffa3eda03d9)
+![image](https://github.com/user-attachments/assets/4957df8d-ff7c-47a8-8b71-bbe3b1995a06)
 
 [Example](https://public.flourish.studio/visualisation/19308653/) 
 
