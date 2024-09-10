@@ -28,6 +28,7 @@ Copy the link of the tournament. Paste into ```client.tournaments.stream_results
 Players' points over time is saved as "player_points.csv". If the tournament is a team tournament "team_points.csv" saved as well   
 [Flourish](https://app.flourish.studio) can be used. Choose bar chart race and upload the csv file
 ## Example
-![image](https://github.com/user-attachments/assets/51bc1d41-bf12-48c2-aef8-ba4d06dd6797)
+![image](https://github.com/user-attachments/assets/ef5f3416-070d-488e-a859-b2963894674d)
+
 [Example](https://public.flourish.studio/visualisation/19308653/) 
 
